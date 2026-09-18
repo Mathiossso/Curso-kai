@@ -1,0 +1,248 @@
+/*CSS -- RESET*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div logo{
+    background-color: #f32121;
+}
+
+/*Cabeçalho*/
+body {
+    font-family:cursive;
+    line-height: 1.6;
+}
+
+header {
+    background-color: rgb(47, 18, 66);
+    color: black;
+    padding: 1rem 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display:flex ;
+    gap: 1.5rem;
+
+}
+
+nav div {
+    color: #665858;
+    font-size: 35px ;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: rgb(167, 35, 174) ;
+}
+
+ul li {
+    border: 1px solid #060606;
+    border-radius: 10px;
+
+}
+
+
+#hero{
+    height: 80vh;
+    background-color: blueviolet;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+#hero h1{
+    width: 230;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #222;
+    box-shadow:  10px 10px 10px rgb(39, 43, 39);
+    border-radius: 15px;
+}
+
+img{
+    width: 160px;
+    border-radius: 15%;
+    margin-bottom: 15px;
+}
+
+p{
+    border-bottom: 40px;
+}
+
+a {
+    color: #222;
+    background-color:brown;
+    border: 0.5px solid #ffffff;
+    border-radius: 10px;
+    width: 80px;
+}
+
+a:hover{
+    background-color:#222;
+    color: blueviolet;
+    width: 80px;
+}
+
+.btn{
+    display: inline-block;
+    background-color: antiquewhite;
+    color: aqua;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+
+.bnt:hover{
+    background-color: black;
+
+}
+
+.services{
+    padding: 80px 24px ;
+    background-color: rgb(4, 4, 17);
+    max-width: auto;
+    margin: 0 auto;
+}
+
+.section-title{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 50px;
+    color: rgb(119, 73, 12);
+}
+
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #471d1d;
+    color: rgb(119, 73, 12);
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 32px;
+    flex: 1 1 280px;
+    box-shadow: 0 4px 10px rgba(0, -10, -10, 1);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: black;
+}
+
+
+footer{
+    background-color: #f32121;
+}
+
+header{
+    background-color: #471d1d;
+    border: 2px #ffffff;
+    border-radius: 15px;
+}
+
+
+div li{
+    background-color: #f32121;
+    border-radius: 10px;
+    width: 186px;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+
+button{
+    background-color: #471d1d;
+    color: #f32121;
+    width: 130px ;
+    justify-content: baseline;
+}
+
+.cta{
+    background-color: #4b4949;
+    color: rgb(140, 96, 14);
+    text-align: center;
+    padding: 80px 24px 
+}
+
+.cta h2{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.cta p{
+    background-color: #060606;
+    border: 2px solid rgb(140, 96, 14);
+    border-radius: 15px;
+    padding: 27px;
+    box-shadow: 0 14px 30px ;
+    font-weight: bolder;
+    margin-bottom:30px;
+}
+
+.cta a:hover{
+    background-color: #060606;
+    color: rgb(140, 96, 14);
+    padding: 12px;
+    box-shadow: 0 14px 30px ;
+    width: 200px;
+    
+}
+.cta a{
+    border:2px solid #060606;
+    background-color: rgb(47, 18, 66);
+    color: rgb(140, 96, 14);
+    padding: 12px;
+    box-shadow: 0 14px 30px rgb(47 18 66 ) ;
+    width: 200px;
+    transition: all 0.5s ease;
+    
+}
+
+.footer{
+    background-color: #471d1d;
+    color:#ffffff;
+    text-align: center;
+    padding: 32px 24px;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.social-links a{
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.5 ease;
+}
+
+.social-links a:hover{
+    background-color:rgb(4, 4, 17);
+}
